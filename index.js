@@ -32,10 +32,8 @@
 
     function extend(obj) {
         each(slice.call(arguments, 1), function(source) {
-            each(source, function(val, prop) {
-                if (has.call(source, prop)) {
-                    obj[prop] = val;
-                }
+            each(source, function(val, prop) {                
+                obj[prop] = val;                
             });
         });
         return obj;
