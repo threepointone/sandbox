@@ -1,0 +1,13 @@
+{
+  "name": "sandbox",
+  "repo": "threepointone/sandbox",
+  "description": "sandboxing modules, ala YUI",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "sandbox",
+  "version": "0.0.0",
+  "description": "sandboxed modules, ala YUI",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests.js"
+  },
+  "repository": "",
+  "keywords": [
+    "sandbox",
+    "modules",
+    "yui"
+  ],
+  "author": "Sunil Pai",
+  "license": "BSD",
+  "readmeFilename": "Readme.md",
+  "dependencies": {
+    "mocha": "~1.8.1",
+    "should": "~1.2.2"
+  }
+}
